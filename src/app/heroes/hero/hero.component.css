@@ -16,6 +16,10 @@
   background-color: pink;
 }
 .avatar > img{
-  height: 10rem;
-  
+  height: 9rem;
+  width: 17rem;
+}
+.name > img{
+  font-style: italic;
+  font-size: 10px;
 }
