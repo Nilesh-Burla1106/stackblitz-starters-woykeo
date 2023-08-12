@@ -26,8 +26,13 @@
   align-items: center;
   font-family: 'Tilt Prism', cursive;
   font-size: 16px;
-  /* justify-content:space-between; */
 }
 .field{
   display: flex;
+  font-family: 'Inconsolata', monospace;
+  /* background:grey; */
+  flex-direction:column;
+  justify-content: center;
+  font-size: 18px;
+  
 }
