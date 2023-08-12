@@ -1,9 +1,9 @@
 import{Hero} from "./hero";
 
 export const HEROES:Hero[]=[
-  {id:1,avatar:"https://www.forbesindia.com/media/images/2022/Aug/img_192351_viratkohli.jpg",name:'Virat Kohli',field:'Cricket',info:'Run Machine'},
-  {id:1,avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyrC8CgbadnAb21D-RcmqFxI_ICLtR31tWew&usqp=CAU",name:'Rohit Sharma',field:'Cricket',info:'Hitman'},
-  {id:1,avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MXuJ3KvpWi85FrAhgRc3ThKmQtWU3fECsQ&usqp=CAU",name:'M.S.Dhoni',field:'Cricket',info:'Captain Cool'},
-  {id:1,avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYadjec_YOf4d2s_G4R9yp_zQ68AJ3HkpJQ&usqp=CAU",name:'Bumrah',field:'Cricket',info:'Yorker king'},
-  {id:1,avatar:"https://static.toiimg.com/thumb/msid-69959794,width-400,resizemode-4/69959794.jpg",name:'Bhuvi',field:'Cricket',info:'swing Master'},
+  {id:1,avatar:"https://www.forbesindia.com/media/images/2022/Aug/img_192351_viratkohli.jpg",name:'Virat Kohli',field:'Cricket',info:''},
+  {id:2,avatar:"https://filmfare.wwmindia.com/content/2018/mar/600by450ab15174803041521323491.jpg",name:'Amitabh Bachann',field:'Film star',info:''},
+  {id:3,avatar:"https://static.toiimg.com/photo/msid-101150151/101150151.jpg",name:'Narendra Modi',field:'Politics',info:''},
+  {id:4,avatar:"https://imgeng.jagran.com/images/2023/may/sundarpichai1683786929944.jpg",name:'Sundar Pichai',field:'Material science and design',info:''},
+  {id:5,avatar:"https://www.geo.tv/assets/uploads/updates/2023-05-05/485628_6197077_updates.jpg",name:'Arjit singh',field:'Singing',info:'swing Master'},
 ];
