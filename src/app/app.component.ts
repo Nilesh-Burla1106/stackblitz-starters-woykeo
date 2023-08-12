@@ -14,10 +14,11 @@ import { HEROES } from './mock-heroes';
 export class AppComponent implements OnInit {
   heroes: Hero[] = HEROES;
   constructor() {
-    console.log(this.heroes)
+    // console.log(this.heroes)
    }
     
   ngOnInit() {
+    this.heroes=HEROES;
   }
 
 }
