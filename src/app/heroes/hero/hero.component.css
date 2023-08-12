@@ -6,6 +6,7 @@
   /* flex-direction:column; */
   padding: 0.1rem;
   border: 1px solid #ccc;
+  /* height: 0.1rem; */
 }
 .avatar{
   display: flex;
@@ -16,7 +17,7 @@
   background-color: pink;
 }
 .avatar > img{
-  height: 9rem;
+  height: 10rem;
   width: 17rem;
 }
 .name-id{
@@ -26,5 +27,7 @@
   font-family: 'Tilt Prism', cursive;
   font-size: 16px;
   /* justify-content:space-between; */
-
+}
+.field{
+  display: flex;
 }
