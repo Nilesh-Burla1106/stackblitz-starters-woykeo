@@ -9,7 +9,7 @@ import { HEROES } from './mock-heroes';
   selector: 'app-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports:[HeroesComponent,HeroDetailsComponent]
+  imports:[HeroesComponent,HeroDetailsComponent],
 })
 export class AppComponent implements OnInit {
   heroes: Hero[] = HEROES;
