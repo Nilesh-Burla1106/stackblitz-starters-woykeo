@@ -7,3 +7,15 @@
   padding: 0.1rem;
   border: 1px solid #ccc;
 }
+.avatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  background-color: pink;
+}
+.avatar > img{
+  height: 10rem;
+  
+}
