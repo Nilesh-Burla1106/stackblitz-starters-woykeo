@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Hero } from './hero';
 import { HeroDetailsComponent } from './hero-details/hero-details.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { HEROES } from './mock-heroes';
 
 @Component({
   standalone:true,
@@ -10,9 +12,11 @@ import { HeroesComponent } from './heroes/heroes.component';
   imports:[HeroesComponent,HeroDetailsComponent]
 })
 export class AppComponent implements OnInit {
-
-  constructor() { }
-
+  heroes: Hero[] = HEROES;
+  constructor() {
+    console.log(this.heroes)
+   }
+    
   ngOnInit() {
   }
 
