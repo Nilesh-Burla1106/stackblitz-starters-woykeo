@@ -12,12 +12,16 @@ import { HeroComponent } from './hero/hero.component';
   imports:[HeroComponent,CommonModule]
 })
 export class HeroesComponent implements OnInit {
-  heroes:Hero[]=HEROES;
+  heroes:Hero[]=[];
+
   constructor() {
-    this.heroes=HEROES;
+    // this.heroes=HEROES;
    }
 
   ngOnInit() {
+    this.heroes=HEROES;
   }
-
+  onselected(hero:Hero){
+    console.log(hero)
+  }
 }
