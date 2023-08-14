@@ -3,5 +3,5 @@ app works!
 </p> -->
 <div class="container">
 <app-heroes class="heroes"(heroselected)="onHeroselected($event)"></app-heroes>
-<app-hero-details class="hero-details"></app-hero-details>
+<app-hero-details class="hero-details" [selectedHero]="selectedHero"></app-hero-details>
 </div>
