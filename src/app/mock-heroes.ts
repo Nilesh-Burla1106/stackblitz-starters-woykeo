@@ -1,9 +1,9 @@
 import{Hero} from "./hero";
 
 export const HEROES:Hero[]=[
-  {id:1, avatar:"https://www.forbesindia.com/media/images/2022/Aug/img_192351_viratkohli.jpg",name:'Virat Kohli',field:'Cricket',info:''},
-  {id:2,avatar:"https://filmfare.wwmindia.com/content/2018/mar/600by450ab15174803041521323491.jpg",name:'Amitabh Bachan',field:'Film star',info:''},
-  {id:3,avatar:"https://static.toiimg.com/photo/msid-101150151/101150151.jpg",name:'Narendra Modi',field:'Politics',info:''},
-  {id:4,avatar:"https://cdn.britannica.com/42/193142-050-F69B1A23/Sundar-Pichai-Google.jpg",name:'Sundar Pichai',field:'Material science and design',info:''},
-  {id:5,avatar:"https://www.geo.tv/assets/uploads/updates/2023-05-05/485628_6197077_updates.jpg",name:'Arjit singh',field:'Singing',info:''},
+  {id:1, avatar:"https://www.forbesindia.com/media/images/2022/Aug/img_192351_viratkohli.jpg",name:'Virat Kohli',field:'Cricket',info:'Virat Kohli (Hindi pronunciation: [ʋɪˈɾɑːʈ ˈkoːɦli] (listen); born 5 November 1988) is an Indian international cricketer and the former captain of the Indian national cricket team.'},
+  {id:2,avatar:"https://filmfare.wwmindia.com/content/2018/mar/600by450ab15174803041521323491.jpg",name:'Amitabh Bachan',field:'Film star',info:'Amitabh Bachchan is an Indian actor, film producer, television host, occasional playback singer and former politician, who works in Hindi cinema. In film career spanning over five decades, he has starred in more than 200 films.'},
+  {id:3,avatar:"https://static.toiimg.com/photo/msid-101150151/101150151.jpg",name:'Narendra Modi',field:'Politics',info:'Narendra Damodardas Modi is an Indian politician who has served as the 14th Prime Minister of India since May 2014. Modi was the Chief Minister of Gujarat from 2001 to 2014 and is the Member of Parliament for Varanasi'},
+  {id:4,avatar:"https://cdn.britannica.com/42/193142-050-F69B1A23/Sundar-Pichai-Google.jpg",name:'Sundar Pichai',field:'Material science and design',info:'Pichai Sundararajan, better known as Sundar Pichai, is an American business executive. He is the chief executive officer of Alphabet Inc. and its subsidiary Google. Pichai began his career as a materials engineer.'},
+  {id:5,avatar:"https://www.geo.tv/assets/uploads/updates/2023-05-05/485628_6197077_updates.jpg",name:'Arjit singh',field:'Singing',info:'Arijit Singh is an Indian playback singer and music composer. The recipient of several accolades including a National Film Award and seven Filmfare Awards, he has recorded songs in several Indian languages.'},
 ];
