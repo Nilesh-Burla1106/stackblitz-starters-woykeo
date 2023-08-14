@@ -5,36 +5,38 @@
   flex-direction: column;
   /* background-color: grey;
  }*/
-.container{
+ .container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+  align-items: center;
+  justify-content:flex-start;
+  background-image: url(https://w0.peakpx.com/wallpaper/248/213/HD-wallpaper-abstract-texture-wood.jpg);
+}
+.card {
   display: flex;
   flex-direction: column;
   height: 60vh;
   width: 30vw;
-  /* align-items: center; */
-  justify-content:center;
-  /* align-content: center; */
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 50%;
+}
+.avatar > img {
+  height: 20vh;
+  width: 40%;
+  border: 1px solid black;
+}
+.name-id {
+  align-self: center;
+  font-size: larger;
+}
 
-}
-.card{
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  height: 60vh;
-  width: 30vw;
-}
-.avatar{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  height: 20vh;
-  width: 100%;
-}
-.avatar > img{
-  /* justify-content:*/
-  align-items: center;
-  height: 20vh;
-  width: 100%;
-}
 .info{
   display: flex;
   flex-direction: column;
