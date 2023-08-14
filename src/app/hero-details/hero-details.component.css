@@ -10,8 +10,10 @@
   flex-direction: column;
   height: 60vh;
   width: 30vw;
-  align-items: center;
-  justify-content: flex-start;
+  /* align-items: center; */
+  justify-content:center;
+  /* align-content: center; */
+
 }
 .card{
   display: flex;
@@ -28,7 +30,7 @@
   width: 100%;
 }
 .avatar > img{
-  justify-content: center;
+  /* justify-content:*/
   align-items: center;
   height: 20vh;
   width: 100%;
@@ -36,6 +38,6 @@
 .info{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content:center;
   align-items: center;
 }

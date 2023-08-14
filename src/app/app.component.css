@@ -24,4 +24,6 @@
   /* background-color: blueviolet; */
   border: 1px solid black;
   box-shadow: 2px 2px 3px rgba(10, 25,50,75 );
+  align-items: center;
+  justify-content: center;
 }
