@@ -8,6 +8,12 @@
   border: 1px solid #ccc;
   /* height: 0.1rem; */
 }
+.container:hover{
+  background-color: #ccc;
+  height: 47vh;
+  box-shadow: 2px 2px 3px rgba(250,250,250,0.3);
+
+}
 .avatar{
   display: flex;
   justify-content: center;
