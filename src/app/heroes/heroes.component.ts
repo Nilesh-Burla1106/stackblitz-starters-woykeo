@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Hero } from '../hero';
 import { HEROES } from '../mock-heroes';
 import { HeroComponent } from './hero/hero.component';
@@ -13,7 +13,7 @@ import { HeroComponent } from './hero/hero.component';
 })
 export class HeroesComponent implements OnInit {
   heroes:Hero[]=[];
-
+  @Output()heroselected=new EventEmitter<Hero>();
   constructor() {
     // this.heroes=HEROES;
    }
@@ -22,6 +22,7 @@ export class HeroesComponent implements OnInit {
     this.heroes=HEROES;
   }
   onselected(hero:Hero){
-    console.log(hero)
+    // console.log(hero)
+    this.heroselected.emit(hero);
   }
 }
