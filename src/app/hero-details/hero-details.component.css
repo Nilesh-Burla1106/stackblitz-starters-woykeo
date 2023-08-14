@@ -1,7 +1,38 @@
-p{
+/* /* p{
   display: flex;
   align-items:center;
   justify-content: center;
   flex-direction: column;
-  /* background-color: grey; */
+  /* background-color: grey;
+ }*/
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 30vw;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 30vw;
+}
+.avatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+}
+.avatar > img{
+  height: 20vh;
+  width: 100%;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
 }

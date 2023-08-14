@@ -6,7 +6,7 @@
   /* flex-direction:column; */
   padding: 0.1rem;
   border: 1px solid #ccc;
-  /* height: 0.1rem; */
+  /* height: 46vh; */
 }
 .container:hover{
   background-color: #ccc;
